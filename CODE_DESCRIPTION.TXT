@@ -1,0 +1,60 @@
+The following routines are general-purpose workers
+
+MEM.CPP - Optionally provides extensive memory-use checking as a debugging tool.
+READFILE.CPP - Several variable analysis programs use this to read data files
+SPEARMAN.CPP - Compute Spearman rho nonparametric correlation
+STATS.CPP - A wide variety of statistical routines.  Very useful for other applications as well!
+RAND32.CPP - Assorted random number generators, including several having extreme quality
+QSORTD.CPP - Quick-sort routines
+PART.CPP - Optimally partition a continuous variable into bins
+PARZDENS.CPP - Density estimation with Parzen's method
+SPLINE.CPP - Cubic spline interpolation
+MINIMIZE.CPP - Several numeric minimization routines
+BILINEAR.CPP - Bilinear interpolation
+INTEGRAT.CPP - Numeric integration by adaptive quadrature
+
+
+The following routines compute mutual information and relatives
+
+MUTINF_B.CPP - Mutual information for binary data
+MUTINF_C.CPP - Mutual information for continuous data
+MUTINF_D.CPP - Mutual information for discrete data
+TRANS_ENT.CPP - Transfer entropy (information transfer)
+
+
+The following routines are primitive models used by testing programs.
+These use minimal training and do no error checking, so they are not
+appropriate for use outside of these applications.
+
+LINREG.CPP - Ordinary linear regression by singular value decomposition
+GRNN.CPP - General regression neural network (advanced kernel regression)
+MLFN.CPP - Multiple layer feedforward network
+LOGISTIC.CPP - Logistic regression limited to small positive weights
+
+
+The following routines are complete programs that demonstrate concepts in the text
+
+BOOT_P_1.CPP - Bootstrap estimate of bias and variance when s != t
+BOOT_P_2.CPP - Bootstrap estimate of bias and variance when s = t
+BOOT_P_3.CPP - Bootstrap estimate of bias and variance for regression coef
+BOOT_P_4.CPP - Bootstrap confidence intervals for correlation coef
+BOOT_P_5.CPP - Compare jackknife and bootstrap estimates for bias/var of PF
+BOOT_C_1.CPP - Compare resampling methods for estimating error variance (numeric)
+BOOT_C_2.CPP - Compare resampling methods for estimating error variance (classification)
+ENTROPY.CPP - Compute the entropy of each of a set of variables
+MI_DISC.CPP - Mutual information for discrete predicted and predictors
+MI_CONT.CPP - Mutual information for continuous predicted and predictors
+MI_BIN.CPP - Mutual information for binary predicted and predictors
+MI_ONLY.CPP - Mutual information ONLY for continuous predicted and predictors
+DEP_BOOT.CPP - Dependent bootstrap routines
+TEST_DIS.CPP - Test the discrete mutual information methods
+TEST_CON.CPP - Test the continuous mutual information methods
+TRANSFER.CPP - Compute transfer entropy for predictor candidates
+MC_TRAIN.CPP - Demonstrate Monte-Carlo permutation training
+ARCING.CPP - Compare bagging and AdaBoost methods for binary classification
+ARCING_M.CPP - Compare bagging and AdaBoost for multiple classification
+CONFCONF.CPP - Demonstrate confidence in hypothesis test confidence
+MULTPRED.CPP - Compare methods for combining multiple numeric predictors
+MULTCLAS.CPP - Compare methods for combining multiple class predictors
+AFTERFAC.CPP - Test after-the-fact oracle
+GRNNGATE.CPP - Test GRNN gating
